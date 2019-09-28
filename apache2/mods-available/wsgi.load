@@ -1,2 +1,3 @@
-LoadModule wsgi_module /usr/lib/apache2/modules/mod_wsgi-py35.cpython-35m-arm-linux-gnueabihf.so
-#LoadModule wsgi_module /usr/lib/apache2/modules/mod_wsgi.so
+#change default from mod_wsgi_py 2019-09-28
+#LoadModule wsgi_module /usr/lib/apache2/modules/mod_wsgi-py35.cpython-35m-arm-linux-gnueabihf.so
+LoadModule wsgi_module /usr/lib/apache2/modules/mod_wsgi.so
