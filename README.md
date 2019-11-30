@@ -3,7 +3,7 @@
 This files is for apache2 on the following setting.  
  1. Raspbian at Raspberry Pi3
  1. Enable cgi of python3
- 1. Python run a USB memory
+ 1. Python run at "/media/pi/myUSB/011_yt_cast/rasUSB/cgi-bin/" on USB memory
  1. don't install mod_wsgi
 
 
