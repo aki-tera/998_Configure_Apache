@@ -23,7 +23,14 @@ export APACHE_LOCK_DIR=/var/lock/apache2$SUFFIX
 export APACHE_LOG_DIR=/var/log/apache2$SUFFIX
 
 ## The locale used by some modules like mod_dav
-export LANG=C
+
+#change 2019/12/01
+#export LANG=C
+export LANG=ja_JP.utf8
+
+#add 2019/12/01
+export LC_CTYPE=ja_JP.utf8
+
 ## Uncomment the following line to use the system default locale instead:
 #. /etc/default/locale
 
